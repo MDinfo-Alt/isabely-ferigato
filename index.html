@@ -1,203 +1,245 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-  <meta name="description" content="fotógrafa de casamentos e ensaios em Sarandi - PR" />
-  <title>Isabely Ferigato</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <meta
+      name="description"
+      content="fotógrafa de casamentos e ensaios em Sarandi - PR"
+    />
+    <title>Isabely Ferigato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========== NAVEGAÇÃO ========== -->
+    <nav>
+      <a href="#" class="nav-logo">Isabely Ferigato</a>
 
-  <!-- ========== NAVEGAÇÃO ========== -->
-  <nav>
-    <a href="#" class="nav-logo">Isabely Ferigato</a>
+      <button class="nav-toggle" aria-label="abrir menu">
+        <span></span><span></span><span></span>
+      </button>
 
-    <button class="nav-toggle" aria-label="abrir menu">
-      <span></span><span></span><span></span>
-    </button>
+      <ul class="nav-links">
+        <li><a href="#galeria">Portfólio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
 
-    <ul class="nav-links">
-      <li><a href="#galeria">Portfólio</a></li>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
+    <!-- ========== HERO ========== -->
+    <section id="hero">
+      <div class="hero-left reveal">
+        <span class="eyebrow">Fotografia · Sarandi, Brasil</span>
+        <h1 class="hero-title">
+          Momentos<br /><em>que ficam</em><br />para sempre
+        </h1>
+        <p class="hero-desc">
+          Especializada em casamentos e ensaios pessoais, capturo a essência de
+          cada história com sensibilidade e elegância.
+        </p>
+        <a href="#galeria" class="btn-primary">Ver Portfólio</a>
+      </div>
 
-  <!-- ========== HERO ========== -->
-  <section id="hero">
-    <div class="hero-left reveal">
-      <span class="eyebrow">Fotografia · Sarandi, Brasil</span>
-      <h1 class="hero-title">
-        Momentos<br><em>que ficam</em><br>para sempre
-      </h1>
-      <p class="hero-desc">
-        Especializada em casamentos e ensaios pessoais,
-        capturo a essência de cada história com
-        sensibilidade e elegância.
-      </p>
-      <a href="#galeria" class="btn-primary">Ver Portfólio</a>
-    </div>
-
-    <div class="hero-right">
-      <!--
+      <div class="hero-right">
+        <!--
         COMO USAR:
         Substitua o .placeholder pela sua foto principal:
         <img src="sua-foto.jpg" alt="descrição" />
       -->
-      <img src="img/casamento6.jpeg" alt="Foto destaque principal" />
-    </div>
-  </section>
+        <img src="img/casamento6.jpeg" alt="Foto destaque principal" />
+      </div>
+    </section>
 
-  <!-- ========== GALERIA ========== -->
-  <section id="galeria">
-    <div class="section-head reveal">
-      <h2>Trabalhos recentes</h2>
-      <a href="galeria.html">Ver todos →</a>
-    </div>
+    <!-- ========== GALERIA ========== -->
+    <section id="galeria">
+      <div class="section-head reveal">
+        <h2>Trabalhos recentes</h2>
+        <a href="galeria.html">Ver todos →</a>
+      </div>
 
-    <div class="gallery-grid">
-      <!--
+      <div class="gallery-grid">
+        <!--
         COMO USAR:
         Dentro de cada .g-item, substitua o .placeholder por:
         <img src="foto.jpg" alt="descrição" />
       -->
-      <div class="g-item reveal">
-        <img src="img/casamento.jpeg" alt="Foto 1" />
+        <div class="g-item reveal">
+          <img src="img/casamento.jpeg" alt="Foto 1" />
+        </div>
+        <div class="g-item reveal">
+          <img src="img/casamento1.jpeg" alt="Foto 2" />
+        </div>
+        <div class="g-item reveal">
+          <img src="img/casamento2.jpeg" alt="Foto 3" />
+        </div>
+        <div class="g-item reveal">
+          <img src="img/retrato1.jpeg" alt="Foto 4" />
+        </div>
+        <div class="g-item reveal">
+          <img src="img/retrato2.jpeg" alt="Foto 5" />
+        </div>
       </div>
-      <div class="g-item reveal">
-        <img src="img/casamento1.jpeg" alt="Foto 2" />
-      </div>
-      <div class="g-item reveal">
-        <img src="img/casamento2.jpeg" alt="Foto 3" />
-      </div>
-      <div class="g-item reveal">
-        <img src="img/retrato1.jpeg" alt="Foto 4" />
-      </div>
-      <div class="g-item reveal">
-        <img src="img/retrato2.jpeg" alt="Foto 5" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== SOBRE ========== -->
-  <section id="sobre">
-    <div class="sobre-img">
-      <!--
+    <!-- ========== SOBRE ========== -->
+    <section id="sobre">
+      <div class="sobre-img">
+        <!--
         Substitua por:
         <img src="foto-sua.jpg" alt="nome da fotógrafa" />
       -->
-      <img src="img/myfoto.jpeg" alt="Foto da fotógrafa" />
-    </div>
+        <img src="img/myfoto.jpeg" alt="Foto da fotógrafa" />
+      </div>
 
-    <div class="sobre-texto reveal">
-      <span class="eyebrow">Sobre mim</span>
-      <h2>Olá, sou<br><em>Isabely Ferigato</em></h2>
-      <p>
-        Prazer, Isabely.
-        Apaixonada por fotografia, cesci vendo vendo fotos antigas - fotos que deixaram
-        histórias reais de pessoas especiais.
-
-        Então meu objetivo como fotógrafa, é registrar seus momentos de maneira verdadeira
-        Fotografias verdadeiras e momentos verdadeiros.
-        Sendo asssim, posso te registrar?
-      </p>
-      <div class="sobre-stats">
-        <div>
-          <span class="stat-num">2+</span>
-          <span class="stat-label">Anos de experiência</span>
+      <div class="sobre-texto reveal">
+        <span class="eyebrow">Sobre mim</span>
+        <h2>Olá, sou<br /><em>Isabely Ferigato</em></h2>
+        <p>
+          Prazer, Isabely. Sou apaixonada por fotografia e cresci observando
+          fotos antigas — imagens que guardavam histórias reais de pessoas
+          especiais. Hoje, como fotógrafa, meu objetivo é registrar momentos de
+          forma verdadeira e sensível, transformando emoções em memórias que
+          possam ser revividas no futuro. Mais do que fotografias, acredito em
+          conexões, sentimentos e histórias reais. E então, posso contar a sua
+          história através das minhas lentes?
+        </p>
+        <div class="sobre-stats">
+          <div>
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Anos de experiência</span>
+          </div>
+          <div>
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Clientes satisfeitos</span>
+          </div>
         </div>
-        <div>
-          <span class="stat-num">100%</span>
-          <span class="stat-label">Clientes satisfeitos</span>
+      </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section id="servicos">
+      <span class="eyebrow reveal">O que ofereço</span>
+      <h2 class="reveal">Serviços</h2>
+
+      <div class="servicos-grid">
+        <div class="servico-card reveal">
+          <svg class="servico-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"
+            />
+          </svg>
+          <h3>Casamentos</h3>
+          <p>
+            Cobertura completa do seu dia especial, do making of à festa, com
+            todo o cuidado e emoção que o momento merece.
+          </p>
+        </div>
+        <div class="servico-card reveal">
+          <svg class="servico-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
+          </svg>
+          <h3>Ensaios pessoais</h3>
+          <p>
+            Sessões para casais, individuais ou família em locações únicas.
+            Momentos espontâneos e cheios de vida.
+          </p>
+        </div>
+        <div class="servico-card reveal">
+          <svg class="servico-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+            <line x1="9" y1="9" x2="9.01" y2="9" />
+            <line x1="15" y1="9" x2="15.01" y2="9" />
+          </svg>
+          <h3>Lifestyle</h3>
+          <p>
+            Fotografia documental e natural. Capturo quem você realmente é, no
+            seu ambiente e do seu jeito.
+          </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== SERVIÇOS ========== -->
-  <section id="servicos">
-    <span class="eyebrow reveal">O que ofereço</span>
-    <h2 class="reveal">Serviços</h2>
-
-    <div class="servicos-grid">
-      <div class="servico-card reveal">
-        <svg class="servico-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/>
-        </svg>
-        <h3>Casamentos</h3>
-        <p>
-          Cobertura completa do seu dia especial,
-          do making of à festa, com todo o cuidado
-          e emoção que o momento merece.
+    <!-- ========== CONTATO ========== -->
+    <section id="contato">
+      <div class="contato-inner">
+        <span class="eyebrow">Vamos conversar</span>
+        <h2 class="reveal">Sua história<br /><em>me inspira</em></h2>
+        <p class="reveal">
+          Disponibilidade limitada — agende com antecedência. Me conte um pouco
+          sobre o que você tem em mente.
         </p>
+        <a
+          href="https://wa.me/5544991222118?text=Ol%C3%A1%2C%20gostaria%20de%20realizar%20um%20or%C3%A7amento!"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary reveal"
+          >Solicitar Orçamento</a
+        >
+        <a href="mailto:seuemail@email.com" class="contato-email reveal"
+          >seuemail@email.com.br</a
+        >
+        <div class="socials reveal">
+          <a
+            href="https://instagram.com/porisabelyferigato"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+          <a
+            href="https://wa.me/5544991222118"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp</a
+          >
+        </div>
       </div>
-      <div class="servico-card reveal">
-        <svg class="servico-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="12" cy="8" r="4"/>
-          <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
-        </svg>
-        <h3>Ensaios pessoais</h3>
-        <p>
-          Sessões para casais, individuais ou família
-          em locações únicas. Momentos espontâneos
-          e cheios de vida.
-        </p>
-      </div>
-      <div class="servico-card reveal">
-        <svg class="servico-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="12" cy="12" r="10"/>
-          <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
-          <line x1="9" y1="9" x2="9.01" y2="9"/>
-          <line x1="15" y1="9" x2="15.01" y2="9"/>
-        </svg>
-        <h3>Lifestyle</h3>
-        <p>
-          Fotografia documental e natural. Capturo
-          quem você realmente é, no seu ambiente
-          e do seu jeito.
-        </p>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <p>© 2025 Nome da Fotógrafa · Todos os direitos reservados</p>
+      <p>Feito com cuidado · Sarandi - PR, Brasil</p>
+    </footer>
+
+    <!-- ========== LIGHTBOX ========== -->
+    <div
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="visualizar foto"
+    >
+      <button id="lightbox-close" aria-label="fechar">×</button>
+      <div id="lightbox-inner">
+        <div
+          style="
+            background: #f0eeec;
+            aspect-ratio: 3/4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <p
+            style="
+              font-family: &quot;Cormorant Garamond&quot;, serif;
+              font-style: italic;
+              color: #b0aaa4;
+              font-size: 15px;
+            "
+          >
+            foto ampliada aparece aqui
+          </p>
+        </div>
+        <p>Título do ensaio ou casamento</p>
       </div>
     </div>
-  </section>
 
-  <!-- ========== CONTATO ========== -->
-  <section id="contato">
-    <div class="contato-inner">
-      <span class="eyebrow">Vamos conversar</span>
-      <h2 class="reveal">Sua história<br><em>me inspira</em></h2>
-      <p class="reveal">
-        Disponibilidade limitada — agende com antecedência.
-        Me conte um pouco sobre o que você tem em mente.
-      </p>
-      <a href="https://wa.me/5544991222118?text=Ol%C3%A1%2C%20gostaria%20de%20realizar%20um%20or%C3%A7amento!" target="_blank" rel="noopener noreferrer" class="btn-primary reveal">Solicitar Orçamento</a>
-      <a href="mailto:seuemail@email.com" class="contato-email reveal">seuemail@email.com.br</a>
-      <div class="socials reveal">
-        <a href="https://instagram.com/porisabelyferigato" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://wa.me/5544991222118" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== FOOTER ========== -->
-  <footer>
-    <p>© 2025 Nome da Fotógrafa · Todos os direitos reservados</p>
-    <p>Feito com cuidado · Sarandi - PR, Brasil</p>
-  </footer>
-
-  <!-- ========== LIGHTBOX ========== -->
-  <div id="lightbox" role="dialog" aria-modal="true" aria-label="visualizar foto">
-    <button id="lightbox-close" aria-label="fechar">×</button>
-    <div id="lightbox-inner">
-      <div style="background:#f0eeec; aspect-ratio:3/4; display:flex; align-items:center; justify-content:center;">
-        <p style="font-family:'Cormorant Garamond',serif; font-style:italic; color:#b0aaa4; font-size:15px;">foto ampliada aparece aqui</p>
-      </div>
-      <p>Título do ensaio ou casamento</p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
